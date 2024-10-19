@@ -1,7 +1,7 @@
 import 'package:drift/drift.dart';
 import 'package:flutter/material.dart';
-import '../repository/cor_repository.dart';
-import '../database/app_database.dart';
+import '../../repository/cor/cor_repository.dart';
+import '../../database/app_database.dart';
 
 class CorController {
   final CorRepository _repository;

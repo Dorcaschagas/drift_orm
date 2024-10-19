@@ -1,4 +1,4 @@
-import '../database/app_database.dart';
+import '../../database/app_database.dart';
 
 class CorRepository {
   final AppDatabase _db;

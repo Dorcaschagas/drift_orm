@@ -1,4 +1,4 @@
-import 'package:drift_orm/view/cor_view.dart';
+import 'package:drift_orm/view/produto/produto_view.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -16,7 +16,8 @@ class MyApp extends StatelessWidget {
         colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
         useMaterial3: true,
       ),
-      home: CorView(),
+      home: const ProdutoView(),
+      // home: CorView(),
     );
   }
 }

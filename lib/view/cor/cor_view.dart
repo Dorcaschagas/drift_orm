@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
-import '../controller/cor_controller.dart';
-import '../database/app_database.dart';
-import '../repository/cor_repository.dart';
+import '../../controller/cor/cor_controller.dart';
+import '../../database/app_database.dart';
+import '../../repository/cor/cor_repository.dart';
 
 class CorView extends StatefulWidget {
-  const CorView({Key? key}) : super(key: key);
+  const CorView({super.key});
 
   @override
   _CorViewState createState() => _CorViewState();
